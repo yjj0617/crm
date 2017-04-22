@@ -1,0 +1,3 @@
+<a <?php if($cmodel==0){echo('class="active"');}?> href="<?php echo($settings['renderer']['home_path'].'customs/detail/'.$mid);?>">基本信息</a>
+<a <?php if($cmodel==1){echo('class="active"');}?> href="<?php echo($settings['renderer']['home_path'].'customs/detail/'.$mid.'/candc');?>">公司与合同</a>
+<a <?php if($cmodel==2){echo('class="active"');}?> href="<?php echo($settings['renderer']['home_path'].'customs/detail/'.$mid.'/msg');?>">动态信息</a>

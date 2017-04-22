@@ -1,0 +1,2 @@
+<a <?php if($cmodel==0){echo('class="active"');}?> href="<?php echo($settings['renderer']['home_path'].'companies/detail/'.$mid);?>">基本信息</a>
+<a <?php if($cmodel==1){echo('class="active"');}?> href="<?php echo($settings['renderer']['home_path'].'companies/detail/'.$mid.'/contracts');?>">合同</a>

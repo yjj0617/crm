@@ -1,0 +1,14 @@
+{
+    "require": {
+        "slim/slim": "^3.5",
+        "slim/php-view": "^2.2",
+        "monolog/monolog": "^1.21",
+        "catfan/Medoo": "^1.1",
+        "cboden/ratchet": "^0.3.6"
+    },"autoload": {
+        "classmap" : [
+            "Controller",
+            "Middleware"
+        ]
+    }
+}
